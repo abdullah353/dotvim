@@ -1,10 +1,8 @@
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+set hidden
 set number
-
-
-set numberwidth=3
-set cpoptions+=n
-highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGreen guibg=NONE
+set vb t_vb=
+set ts=2 sts=2 sw=2 expandtab
+syntax on
