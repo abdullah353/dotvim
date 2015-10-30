@@ -16,7 +16,6 @@ set modelines=0
 
 set encoding=utf-8
 set scrolloff=3
-set autoindent
 set showmode
 set showcmd
 set hidden
@@ -82,3 +81,9 @@ nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 inoremap jj <ESC>
 
 set guifont=Monaco\ 12
+
+syntax enable
+set background=dark
+colorscheme distinguished
+
+set pastetoggle=<F2>
